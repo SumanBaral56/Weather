@@ -1,4 +1,4 @@
-const apiKey = '5e532822b56440e4a63113949251209'; // Replace with your weatherapi.com API key
+const apiKey = '5e532822b56440e4a63113949251209'; 
 const apiUrl = 'https://api.weatherapi.com/v1/current.json';
 
 document.getElementById('get-weather').addEventListener('click', () => {
@@ -38,3 +38,4 @@ function displayWeather(data) {
         <p>Description: ${description}</p>
     `;
 }
+
